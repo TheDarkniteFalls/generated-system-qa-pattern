@@ -1,0 +1,12 @@
+{
+  "schema_version": 1,
+  "system_id": "synthetic-harbor-stale",
+  "blueprint_path": "blueprint.json",
+  "world_path": "bad/drift-world.json",
+  "entry_node": "dock",
+  "goal_nodes": ["archive"],
+  "required_services": ["repair", "trade"],
+  "max_goal_steps": 4,
+  "require_all_nodes_reachable": true,
+  "representative_journey": ["dock", "workshop", "market", "archive"]
+}

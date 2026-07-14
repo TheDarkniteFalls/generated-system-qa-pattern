@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "generated_from_sha256": "0000000000000000000000000000000000000000000000000000000000000000",
+  "nodes": [
+    {"id": "dock", "services": []},
+    {"id": "workshop", "services": ["repair"]},
+    {"id": "market", "services": ["trade"]},
+    {"id": "archive", "services": ["records"]}
+  ],
+  "edges": [
+    {"from": "dock", "to": "workshop"},
+    {"from": "workshop", "to": "market"},
+    {"from": "market", "to": "archive"}
+  ]
+}

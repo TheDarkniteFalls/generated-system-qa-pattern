@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "generated_from_sha256": "795ba8e9ba5495b4e580148c1e106fe36280e2b6f0550f797f310b70e712aaa6",
+  "nodes": [
+    {"id": "dock", "services": []},
+    {"id": "workshop", "services": []},
+    {"id": "market", "services": ["trade"]},
+    {"id": "archive", "services": ["records"]}
+  ],
+  "edges": [
+    {"from": "dock", "to": "workshop"},
+    {"from": "workshop", "to": "market"},
+    {"from": "market", "to": "archive"}
+  ]
+}
