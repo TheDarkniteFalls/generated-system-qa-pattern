@@ -1,5 +1,17 @@
 # Generated-System QA Pattern
 
+<!-- toolkit-trust-card:start -->
+> **Public contract:** Experimental pattern · about 10 min · Python 3 · no model · no network
+>
+> **Operation:** Read-only check; examples may use temporary files
+>
+> **A pass establishes:** The supplied artifact matches its blueprint and satisfies the declared structural and journey requirements.
+>
+> **It does not establish:** Structural readiness does not prove live UI freshness, domain quality, accessibility, or enjoyment.
+>
+> **First check:** `python3 -B generated_system_qa.py --self-test`
+<!-- toolkit-trust-card:end -->
+
 A small, dependency-free checker for generated worlds, workflows, maps, and
 other graph-shaped systems.
 
